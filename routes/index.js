@@ -8,4 +8,8 @@ router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"))
 })
 
+router.get("/googleda2f13262d109035.html", (req,res) => {
+  res.sendFile(path.join(__dirname, "googleda2f13262d109035.html"))
+})
+
 module.exports = router;
